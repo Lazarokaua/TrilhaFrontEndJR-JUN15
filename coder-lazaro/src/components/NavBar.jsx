@@ -1,23 +1,31 @@
 import React from "react";
+import logo from "../assets/logo_coder-white.webp";
 
 export function NavBar() {
   return (
-    <header>
-      <div className="flex bg-back-0 justify-center w-full h-20 ">
-        <ul className="flex gap-32 justify-center p-4">
-          <a href="/">
-            <li className="font-plex-mono text-2xl text-detail-0">Home</li>
-          </a>
-          <a href="/">
-            <li className="font-plex-mono text-2xl text-detail-0">About Me</li>
-          </a>
-          <a href="/">
-            <li className="font-plex-mono text-2xl text-detail-0">
-              Case Studies
-            </li>
-          </a>
-        </ul>
-      </div>
+    <header className="bg-back-0 flex justify-between">
+      <img src={logo} alt="logo do codigo certo" className="ml-6 mt-2"/>
+
+      <ul className="flex mt-12 gap-12 mr-12">
+        <a href="/">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">inicial</li>
+        </a>
+        <a href="/">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">Sobre mim</li>
+        </a>
+        <a href="/">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
+            Carreira
+            {/* sessao: Minha trajetoria ate aqui */}
+          </li>
+        </a>
+        <a href="/">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">Projetos</li>
+        </a>
+        <a href="/">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">Tecnologias</li>
+        </a>
+      </ul>
     </header>
   );
 }
