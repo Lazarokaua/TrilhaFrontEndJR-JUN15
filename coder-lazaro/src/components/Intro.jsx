@@ -8,10 +8,12 @@ import {GitHubIcon, LinkedInIcon, EmailIcon} from "../components/Icones"
 export function Intro() {
   return (
     <section className="flex justify-around">
-      <div>
-        <p>👋 Saudações!</p>
-        <h1>Lázaro Kauã</h1>
-        <p>Front-end developer · BI analyst</p>
+      <div className="flex flex-col gap-6 justify-center mt-6">
+        <p className="font-raleway font-bold text-secundary-0 text-3xl">👋 Saudações!</p>
+        <h1 className="font-raleway font-bold text-back-0 text-5xl">Lázaro Kauã</h1>
+        <p className="text-black/50 font-raleway font-bold text-3xl">Front-end developer · BI analyst · AI Knowledge</p>
+                                              {/* link para baixar curriculo que eu ainda vou fazer */}
+        <button className="font-raleway font-medium w-40 h-8 border border-secundary-0 rounded-full hover:text-red-500 transition duration-300"><a href="/">Baixar CV</a></button>
       </div>
 
       <div className="flex flex-col">

@@ -2,12 +2,14 @@ import React from "react";
 import ReactDOM from "react-dom/client";
 import { Intro } from "./components/Intro.jsx";
 import { NavBar } from "./components/NavBar.jsx";
+import { AboutMe } from "./components/AboutMe.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <NavBar />
     <Intro />
+    <AboutMe />
    
   </React.StrictMode>
 );
