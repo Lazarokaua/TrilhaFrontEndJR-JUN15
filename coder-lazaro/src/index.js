@@ -3,13 +3,15 @@ import ReactDOM from "react-dom/client";
 import { Intro } from "./components/Intro.jsx";
 import { NavBar } from "./components/NavBar.jsx";
 import { AboutMe } from "./components/AboutMe.jsx";
+import profile from "../src/assets/profile.jpg"
+import profile2 from "../src/assets/profile2.jpg"
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
   <React.StrictMode>
     <NavBar />
-    <Intro />
-    <AboutMe />
+    <Intro  profile={profile}/>
+    <AboutMe profile={profile2}/>
    
   </React.StrictMode>
 );
