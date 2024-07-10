@@ -5,6 +5,7 @@ import { NavBar } from "./components/NavBar.jsx";
 import { AboutMe } from "./components/AboutMe.jsx";
 import profile from "../src/assets/profile.jpg"
 import profile2 from "../src/assets/profile2.jpg"
+import { Projetos } from "./components/Projetos.jsx";
 
 const root = ReactDOM.createRoot(document.getElementById("root"));
 root.render(
@@ -12,6 +13,7 @@ root.render(
     <NavBar />
     <Intro  profile={profile}/>
     <AboutMe profile={profile2}/>
+    <Projetos />
    
   </React.StrictMode>
 );

@@ -4,7 +4,7 @@ const nome = "Lázaro Kauã Rocha da Silva";
 
 export function AboutMe(props) {
   return (
-    <section className="flex justify-around">
+    <section className="flex justify-around" id="sobre-mim">
       <div>
       {/* imagem profile */}
         <img src={props.profile} alt="imagem do programador lazaro kaua" className="w-96 h-96 rounded-full mt-16 border-2 border-secundary-0 shadow-inner"/>

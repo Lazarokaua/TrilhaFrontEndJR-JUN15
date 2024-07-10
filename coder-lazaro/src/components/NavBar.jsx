@@ -13,20 +13,21 @@ export function NavBar() {
             inicial
           </li>
         </a>
-        <a href="/">
+        <a href="#sobre-mim">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
             Sobre mim
           </li>
         </a>
         <a href="/">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
-            Carreira
-            {/* sessao: Minha trajetoria ate aqui */}
+            Projetos
+           
           </li>
         </a>
         <a href="/">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
-            Projetos
+          Carreira
+           {/* sessao: Minha trajetoria ate aqui */}
           </li>
         </a>
         <a href="/">
