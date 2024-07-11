@@ -12,6 +12,9 @@ module.exports = {
         secundary: ["#e53939 "],
         detail: ["#ffffff "]
       },
+      backgroundImage: {
+        'custom-background': "url('/src/assets/image.jpg')",
+      }
     },
   },
   plugins: [],

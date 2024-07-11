@@ -3,7 +3,7 @@ import logo from "../assets/logo_coder-white.webp";
 
 export function NavBar() {
   return (
-    <header className="bg-back-0 flex justify-between">
+    <header className=" flex justify-between">
       <a href="/">
         <img src={logo} alt="logo do codigo certo" className="ml-6 mt-2" />
       </a>
