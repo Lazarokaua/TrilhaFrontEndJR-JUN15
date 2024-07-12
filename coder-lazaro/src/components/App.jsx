@@ -8,7 +8,7 @@ import { Projetos } from "./Projetos.jsx";
 
 export function App() {
   return (
-    <div className="bg-custom-background bg-cover bg-center min-h-screen">
+    <div className="bg-white min-h-screen">
       <NavBar />
       <Intro profile={profile} />
       <AboutMe profile={profile2} />

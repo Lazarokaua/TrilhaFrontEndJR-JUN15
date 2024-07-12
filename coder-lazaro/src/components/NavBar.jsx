@@ -1,9 +1,10 @@
 import React from "react";
 import logo from "../assets/logo_coder-white.webp";
 
+//TODO linkar todas as sessoes []
 export function NavBar() {
   return (
-    <header className=" flex justify-between">
+    <header className="bg-black flex justify-between">
       <a href="/">
         <img src={logo} alt="logo do codigo certo" className="ml-6 mt-2" />
       </a>
@@ -18,7 +19,7 @@ export function NavBar() {
             Sobre mim
           </li>
         </a>
-        <a href="/">
+        <a href="#projetos">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
             Projetos
            
@@ -27,7 +28,7 @@ export function NavBar() {
         <a href="/">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
           Carreira
-           {/* sessao: Minha trajetoria ate aqui */}
+           {/*TODO sessao: Minha trajetoria ate aqui []*/}
           </li>
         </a>
         <a href="/">

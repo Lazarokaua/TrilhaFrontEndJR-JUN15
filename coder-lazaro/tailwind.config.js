@@ -10,7 +10,7 @@ module.exports = {
       colors: {
         back: ["#000000"],
         secundary: ["#e53939 "],
-        detail: ["#ffffff "]
+        detail: ["#ffffff "],
       },
       backgroundImage: {
         'custom-background': "url('/src/assets/image.jpg')",
