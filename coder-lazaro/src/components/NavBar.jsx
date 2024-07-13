@@ -31,7 +31,7 @@ export function NavBar() {
            {/*TODO sessao: Minha trajetoria ate aqui []*/}
           </li>
         </a>
-        <a href="/">
+        <a href="#stacks">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
             Tecnologias
           </li>
