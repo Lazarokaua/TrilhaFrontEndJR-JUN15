@@ -14,6 +14,11 @@ export function NavBar() {
             inicial
           </li>
         </a>
+        <a href="#stacks">
+          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
+            Tecnologias
+          </li>
+        </a>
         <a href="#sobre-mim">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
             Sobre mim
@@ -22,18 +27,12 @@ export function NavBar() {
         <a href="#projetos">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
             Projetos
-           
           </li>
         </a>
         <a href="/">
           <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
-          Carreira
-           {/*TODO sessao: Minha trajetoria ate aqui []*/}
-          </li>
-        </a>
-        <a href="#stacks">
-          <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0">
-            Tecnologias
+            Carreira
+            {/*TODO sessao: Minha trajetoria ate aqui []*/}
           </li>
         </a>
       </ul>

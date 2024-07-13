@@ -6,6 +6,7 @@ import profile from "../assets/profile.jpg";
 import profile2 from "../assets/profile2.jpg";
 import { Projetos } from "./Projetos.jsx";
 import { Stacks } from "./Stacks.jsx";
+import { Footer } from "./Footer.jsx";
 
 export function App() {
   return (
@@ -15,6 +16,7 @@ export function App() {
       <Stacks />
       <AboutMe profile={profile2} />
       <Projetos />
+      <Footer />
     </div>
   );
 }

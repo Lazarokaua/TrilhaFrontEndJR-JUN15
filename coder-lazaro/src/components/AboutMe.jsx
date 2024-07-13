@@ -1,6 +1,6 @@
 import React from "react";
 
-const nome = "Lázaro Kauã Rocha da Silva";
+const nome = "Lázaro Kauã";
 
 export function AboutMe(props) {
   return (
@@ -12,7 +12,7 @@ export function AboutMe(props) {
       <div className="flex flex-col justify-center gap-4">
         <span className="bg-secundary-0 rounded-md font-raleway font-bold w-28 text-detail-0">🧐 Sobre mim</span>
 
-        <h2 className="font-raleway font-bold text-5xl">{nome}</h2>
+        <h2 className="font-raleway font-bold text-5xl text-detail-0 ">{nome}</h2>
 
         <p className="text-detail-0/80 font-raleway font-bold text-2xl">
           👋 Me chamo {nome}, mas pode me chamar apenas de Lázaro. Prazer!
