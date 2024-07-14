@@ -12,28 +12,28 @@ import programador from "../assets/programmer.svg";
 
 export function Stacks() {
   return (
-    <section className="grid grid-cols-2">
+    <section className="grid desktop:grid-cols-2 laptop:grid-cols-1 desktop:h-screen desktop:items-center">
     <div className="flex flex-col items-center justify-center">
           <img
             src={programador}
             alt="Desenvolvedor programando"
-            className=" w-2/4"
+            className="w-2/4"
           />
         </div>
       <div
-        className="flex items-center justify-center gap-8 flex-col font-raleway h-screen"
+        className="flex items-center justify-center gap-8 flex-col font-raleway h-screen laptop:gap-2 laptop:h-[50vh]"
         id="stacks"
       >
-        <h4 className="font-raleway font-bold text-back-0 text-5xl">
+        <h4 className="font-raleway font-bold text-back-0 desktop:text-5xl  laptop:text-2xl">
           Tecnologias e habilidades
         </h4>
-        <div className="flex flex-col items-center gap-16">
-          <p className="text-back-0/75 font-raleway font-bold text-2xl">
+        <div className="flex flex-col items-center gap-16 desktop:gap-6 ">
+          <p className="text-back-0/75 font-raleway font-bold desktop:text-2xl laptop:text-xl">
             Techs que uso no dia a dia
           </p>
 
           <ul>
-            <li className="flex gap-6">
+            <li className="flex gap-6 desktop:gap-2 desktop:w-14 justify-center laptop:w-8 laptop:gap-2">
               <img src={html} alt="HTML IMG" />
               <img src={css} alt="CSS IMG" />
               <img src={git} alt="GIT IMG" />

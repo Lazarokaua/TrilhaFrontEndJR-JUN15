@@ -9,6 +9,7 @@ import produtosImg from "../assets/produtosPbi.png"
 import perfil from "../assets/perfilPbi.png"
 import rhImg from "../assets/rhPbi.png"
 
+// adicionar carrossel na versao mobile
 
 //TODO recriar esse conceito usando map para treinar[X]
 const projects = [
@@ -92,17 +93,17 @@ const projects = [
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="bg-[#2c2c31] rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105">
+    <div className="bg-[#2c2c31] rounded-lg overflow-hidden shadow-lg transform transition duration-500 hover:scale-105 flex flex-col ">
       <img
         className="w-full h-48 object-cover"
         src={project.imageSrc}
         alt={project.title}
       />
-      <div className="px-6 py-4">
+      <div className="px-6 py-4 desktop:px-3 desktop:py-2 ">
         <div className="font-bold text-xl mb-2 text-white">{project.title}</div>
         <p className="text-gray-400 text-base">{project.description}</p>
       </div>
-      <div className="px-6 py-4">
+      <div className="px-6 py-4 desktop:px-6 desktop:py-4">
         {project.tags.map((tag) => (
           <span
             key={tag}
@@ -116,7 +117,7 @@ const ProjectCard = ({ project }) => {
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-block border-secundary-0 border hover:bg-secundary-0/80 text-white font-bold py-2 px-4 rounded"
+            className="mx-2 my-2 inline-block border-secundary-0 border hover:bg-secundary-0/80 text-white font-bold py-2 px-4 rounded"
           >
             Ver online
           </a>
@@ -128,17 +129,16 @@ const ProjectCard = ({ project }) => {
 
 const ProjectsGrid = () => {
   return (
-    <div className="container mx-auto px-5 py-10">
+    <div className="container mx-auto px-5 py-10 desktop:px-2 desktop:py-5">
       <h2 className="text-3xl font-bold text-back-0 text-center mb-16">
         Meus Projetos
       </h2>
-      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+      <div className="grid grid-cols-1 gap-6 lg:grid-cols-3 laptop:grid-cols-2 desktop:grid-cols-4">
         {projects.map((project, index) => (
           <ProjectCard key={index} project={project} />
         ))}
       </div>
     </div>
-    // TODO ADICIONAR PROJETOS POWER BI []
   );
 };
 
