@@ -1,6 +1,6 @@
 import React from "react";
 
-const nome = "Lázaro Kauã";
+const nome = "Lázaro Kauã Rocha da Silva";
 
 export function AboutMe(props) {
   return (
@@ -14,7 +14,7 @@ export function AboutMe(props) {
         <span className="bg-secundary-0 rounded-md font-raleway font-bold w-28 text-detail-0">🧐 Sobre mim</span>
 
         <p className="text-detail-0/80 font-raleway font-bold text-2xl desktop:text-xl laptop:text-base tablet:text-sm mobile:text-sm mobile:p-2">
-          👋 Me chamo {nome}, mas pode me chamar apenas de Lázaro. Prazer!
+          👋 Me chamo {nome}, Pode me chamar apenas de Lázaro, tenho 20 anos. Prazer!
         </p>
 
         <span className="tablet:flex tablet:flex-col tablet:gap-4 mobile:flex mobile:flex-col mobile:gap-3 mobile:p-2">
@@ -26,12 +26,15 @@ export function AboutMe(props) {
             🎓 Graduando em Análise e Desenvolvimento de Sistemas, pela Unigranrio Afya do
             Rio de Janeiro, Duque de Caxias.
           </p>
-          <p className="text-detail-0/75 font-raleway font-bold laptop:text-sm tablet:text-xs mobile:text-xs">💡 Interesses em desenvolvimento Front-end com React.
+          <p className="text-white font-raleway font-bold laptop:text-sm tablet:text-xs mobile:text-xs">
+          🎯 Meu objetivo ao participar da comunidade código certo é me desenvolver como um bom desenvolvedor que trabalha de maneira colaborativa em uma equipe até a obtenção do resultado esperado e compartilhar conhecimentos mútuos com todos.
+          </p>
+          <p className="text-detail-0/75 font-raleway font-bold laptop:text-sm tablet:text-xs mobile:text-xs">💡 Interesses em desenvolvimento Front-end com React e Frameworks ágeis.
           </p>
         </span>
 
         <p className="text-detail-0/50 font-raleway font-bold laptop:text-sm tablet:text-xs mobile:text-xs mobile:p-2">
-          🚀 Tentando ser melhor - <i> Peter Parker - do Tobey Maguire </i>
+          🚀 Tentando ser melhor - <i> Peter Parker - do Tobey Maguire 🕷️ </i>
         </p>
       </div>
     </section>
