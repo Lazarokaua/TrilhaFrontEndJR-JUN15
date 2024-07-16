@@ -8,7 +8,7 @@ export function AboutMe(props) {
       <div className="flex flex-col justify-center desktop:items-center laptop:items-center">
       {/* imagem profile */}
         <img src={props.profile} alt="imagem do programador lazaro kaua" className="w-96 h-96 rounded-full border-2 shadow-2xl  desktop:w-56 desktop:h-56 laptop:w-40 laptop:h-40 mobile:w-28 mobile:h-28"/>
-        <h2 className=" font-raleway font-bold text-detail-0 desktop:text-2xl mt-6 tablet:hidden  mobile:hidden">{nome}</h2>
+        <h2 className=" font-raleway font-bold text-detail-0 desktop:text-2xl mt-6 tablet:hidden  mobile:hidden desktop:block">{nome}</h2>
       </div>
       <div className="flex flex-col justify-center gap-4 laptop:p-4 tablet:p-2 tablet:gap-6 mobile:gap-6">
         <span className="bg-secundary-0 rounded-md font-raleway font-bold w-28 text-detail-0">🧐 Sobre mim</span>

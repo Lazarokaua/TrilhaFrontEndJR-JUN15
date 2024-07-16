@@ -12,27 +12,27 @@ import programador from "../assets/programmer.svg";
 
 export function Stacks() {
   return (
-    <section className="grid desktop:grid-cols-2 laptop:grid-cols-1 desktop:h-screen desktop:items-center tablet:grid-cols-1 tablet:flex tablet:flex-col-reverse mobile:flex-col-reverse mobile:flex">
+    <section className="grid desktop:grid-cols-2 desktop:flex-col laptop:grid-cols-1 desktop:h-screen desktop:items-center tablet:grid-cols-1 tablet:flex tablet:flex-col-reverse mobile:flex-col-reverse mobile:flex">
       <div className="flex flex-col items-center justify-center">
         <img
           src={programador}
           alt="Desenvolvedor programando"
-          className="w-2/4 mobile:hidden"
+          className="w-2/4 desktop:w-full mobile:hidden desktop:flex"
         />
       </div>
       <div
-        className="flex items-center justify-center gap-8 flex-col font-raleway h-screen laptop:gap-2 laptop:h-[50vh] tablet:h-screen"
+        className="flex items-center justify-center gap-8 flex-col font-raleway h-screen laptop:gap-2 laptop:h-[50vh] tablet:h-screen desktop:gap-20"
         id="stacks"
       >
         <h4 className="font-raleway font-bold text-back-0 desktop:text-5xl  laptop:text-2xl mobile:text-xl">
           Tecnologias e habilidades
         </h4>
-        <div className="flex flex-col items-center gap-16 desktop:gap-6 ">
+        <div className="flex flex-col items-center gap-16 desktop:gap-10 ">
           <p className="text-back-0/75 font-raleway font-bold desktop:text-2xl laptop:text-xl mobile:text-md">
             Techs que uso no dia a dia
           </p>
 
-          <ul className="flex flex-wrap justify-center mx-auto gap-2">
+          <ul className="flex flex-wrap justify-center mx-auto gap-2 desktop:gap-8">
             <li>
               <img src={html} alt="HTML IMG"/>
             </li>

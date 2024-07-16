@@ -38,7 +38,7 @@ export function NavBar() {
 
 
       <button 
-      className=" text-white" 
+      className=" text-white desktop:hidden" 
       onClick={() => setIsMobileMenuOpen(!isMobileMenuOpen)}
     >
       {isMobileMenuOpen ? ( 
@@ -53,7 +53,7 @@ export function NavBar() {
     </button>
       {/* Menu Mobile (aparece ao clicar no botão) */}
       {isMobileMenuOpen && (
-        <ul className="absolute top-0 right-0 bg-black w-full  py-4"> 
+        <ul className="absolute top-0 right-0 bg-black w-full  py-4 "> 
           <a href="/" onClick={() => setIsMobileMenuOpen(false)}> {/* Fecha ao clicar */}
             <li className="font-raleway font-bold text-xl text-detail-0 hover:text-secundary-0 text-center py-2">
               Inicial

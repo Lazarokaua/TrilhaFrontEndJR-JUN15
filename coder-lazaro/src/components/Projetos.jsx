@@ -9,7 +9,7 @@ export function Projetos() {
       <ProjectsGrid />
 
       <section id="footer" className="flex flex-col justify-center items-center bg-black">
-        <h2 className="font-raleway text-2xl text-detail-0 mobile:text-sm">
+        <h2 className="font-raleway text-2xl text-detail-0 mobile:text-sm desktop:text-2xl">
           Criado com ❤️ por Lázaro Kauã em <span className="text-secundary-0/50">{ano}</span>
         </h2>
       </section>
