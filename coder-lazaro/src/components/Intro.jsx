@@ -20,7 +20,7 @@ export function Intro(props) {
         {/* link para baixar curriculo que eu ainda vou fazer */}
         <button className="font-raleway font-medium text-detail-0 desktop:w-40 desktop:h-8 border border-detail-0/35 rounded-full hover:text-red-500 hover:border-secundary-0 transition duration-300 mobile:text-xs mobile:w-20 mobile:h-4 mobile:mb-3 desktop:text-lg">
           <a
-            href="https://drive.usercontent.google.com/u/0/uc?id=1-6RkKMNUr47rtpCOejkj5DxopCZEwgw0&export=download"
+            href="https://drive.google.com/file/d/1-6RkKMNUr47rtpCOejkj5DxopCZEwgw0/view?usp=drive_link"
             target="_blank"
           >
             Baixar CV
